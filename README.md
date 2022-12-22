@@ -1,5 +1,8 @@
 # for_let
 
+[![Crates.io](https://img.shields.io/crates/v/for_let?style=for-the-badge)](https://crates.io/crates/for_let)
+[![docs.rs](https://img.shields.io/docsrs/for_let?style=for-the-badge)](https://docs.rs/for_let/latest/for_let/)
+
 That one syntax sugar library you (may have) wished you wrote yourself.
 
 This library provides the `for_let!` macro, so you can write code like this:
