@@ -1,0 +1,21 @@
+[package]
+name = "for_let"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+proc_macro = true
+
+[[bench]]
+name = "vs_iter"
+harness = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+proc-macro2 = "~1"
+quote = "~1"
+syn = { version = "~1", default-features = false, features = ["parsing", "full", "proc-macro", "printing"] }
+
+[dev-dependencies]
+criterion = "0.4.0"
